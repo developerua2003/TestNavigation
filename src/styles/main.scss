@@ -1,0 +1,55 @@
+@import './variables.scss';
+
+.main {
+	width: 375px;
+	height: 812px;
+	text-transform: uppercase;
+	border-radius: 48px 0 0 0;
+
+	&_header {
+		display: flex;
+		height: 100px;
+		justify-content: start;
+
+		&_titleBlock {
+			display: flex;
+			align-items: center;
+			height: 50px;
+			margin-left: 30px;
+			margin-top: 40px;
+			width: 300px;
+
+			&_lines	{
+				&_line {
+					display: block;
+					margin: 7px 0;
+					background: $lines-background-color;
+					height: 5px;
+					width: 40px;
+					border-radius: 5px;
+				}
+			}
+			&_title {
+				color: $main-title-font-color;
+				font-size: 30px;
+				margin-left: 30px;
+			}
+		}
+	}
+
+	&_mainBlock {
+
+	}
+}
+
+.sloped {
+	transform: rotate(-10deg);
+	z-index: 100;
+	background-color: white;
+	left: 260px;
+	position: fixed;
+}
+
+// Tablet Styles
+@media screen and (min-width: 768px) {
+}
