@@ -3,8 +3,6 @@ import React, {useState} from 'react';
 import Menu from './Menu';
 import Main from './Main';
 
-import '../../styles/layout.scss';
-
 interface ILayoutProps {
 	children: any;
 }
